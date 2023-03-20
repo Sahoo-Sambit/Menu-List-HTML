@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(221, 149, 14);
+    font-size: x-large;
+    width: 40vw;
+    margin: auto;
+}
+h1{
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container .left{
+    display: flex;
+    flex-flow:column wrap;
+}
+h2{
+    margin: 0px;
+}
+.right{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    width: 3rem;
+    padding: 60px 0;
+    text-align: center;
+}
+p{
+    margin: 0px 0px 30px;
+    color: rgb(204, 195, 195);
+}
